@@ -7,15 +7,15 @@
     },
     {
       "source": "/x1",
-      "destination": "x"
+      "destination": "https://example.com/"
     },
     {
       "source": "/x2",
-      "destination": "x"
+      "destination": "https://example.com/"
     },
     {
       "source": "/x3",
-      "destination": "x"
+      "destination": "https://example.com/"
     },
     {
       "source": "/:path*",
