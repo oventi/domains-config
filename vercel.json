@@ -1,10 +1,12 @@
 {
-  "rewrites": [
+  "redirects": [
     {
       "source": "/avatar",
       "destination": "https://secure.gravatar.com/avatar/03d39b671d0f4fd5b3dcb28bf4676760?s=400",
       "permanent": true
-    },
+    }
+  ],
+  "rewrites": [
     {
       "source": "/x1",
       "destination": "https://example.com/"
