@@ -1,12 +1,31 @@
 {
+  "redirects": [
+    {
+      "source": "/avatar",
+      "destination": "https://secure.gravatar.com/avatar/03d39b671d0f4fd5b3dcb28bf4676760?s=400",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
+      "source": "/x1",
+      "destination": "https://example.com/"
+    },
+    {
+      "source": "/x2",
+      "destination": "https://example.com/"
+    },
+    {
+      "source": "/x3",
+      "destination": "https://example.com/"
+    },
+    {
       "source": "/:path*",
-      "destination": "https://oventi.org/:path*"
+      "destination": "https://object-storage.nz-hlz-1.catalystcloud.io/v1/AUTH_10d6bd97c52f4c9f824359eafe0fd605/oventi.org/:path*"
     },
     {
       "source": "/",
-      "destination": "https://oventi.org/"
+      "destination": "https://object-storage.nz-hlz-1.catalystcloud.io/v1/AUTH_10d6bd97c52f4c9f824359eafe0fd605/oventi.org/"
     }
   ]
 }
