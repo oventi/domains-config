@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/:path*",
+      "destination": "https://oventi.org/:path*"
+    },
+    {
       "source": "/",
       "destination": "https://oventi.org/"
     }
